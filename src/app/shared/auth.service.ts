@@ -42,7 +42,7 @@ export class AuthService {
     this.setToken(null)
   }
 
-  IsAuthenticated() {
+  isAuthenticated() {
     return !!this.token
   }
 
